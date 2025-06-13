@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+backstop_data/
+
+# Coverage (for Jest or other tools)
+coverage/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*.local
+.env.local
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+*.swp
+*.swo
+
+# Husky
+.husky/_
+
+# Jest snapshots (optional)
+__snapshots__/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Lint-staged debug
+.lintstagedrc
+
+# Optional: test output
+__test__/output/
